@@ -1,0 +1,33 @@
+head  현재 브랜치의 최신 커밋을 포인팅한다
+ ^ xor 
+
+git reset --soft HEAD^ 	stagged 이동
+git reset --mixed HEAD^  	modified 이동
+git reset --hard HEAD^	원래 commit 상태로 복원 -> *사용할때 파일 별도보관
+
+고급언어
+->컴파일러고급언어 번역
+->링커 번역한 언어들을 찾아주는 역할
+->기계어
+
+헤더파일의 의미?
+return 값의 의미?
+독시젠에 함수에 써야하는 주석
+
+cout
+32비트 64비트 차이
+매크로 상수: ex define A B ==> A를 앞으로 B로 사용.
+변수: 변할 수 있는 수
+상수: 변하지않는 수
+
+로그를찍는 소프트웨어
+
+cout <<__FILE__
+cout <<__LINE__
+cout <<__FUNCTION__
+
+
+
+매크로 함수 사용x #컴파일러가 오류를 잡을수 없음
+
+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
