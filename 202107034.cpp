@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;    // ÀÌ¸§°ø°£ std(standard)
+using namespace std;    // ì´ë¦„ê³µê°„ std(standard)
+//í•œê¸€ ë˜ëƒ
 
 
 int main()
@@ -11,7 +12,7 @@ int main()
 			for (k=4-i; k > 0; k--) {
 				printf(" ");
 			}
-			for (j = 0; j < o; j=j+1) {
+			for (j = 0; j < o; j++) {
 				printf("*");
 			}
 			o = o + 2;
